@@ -1,9 +1,21 @@
+--- 
+install: "pip3 install --upgrade pip"
 language: python
-sudo: false
-matrix:
-  include:
-    - name: "Python 3.7.1 on Xenial Linux"
-      python: 3.7
+matrix: 
+  include: 
+    - 
+      before_install: 
+        - "pip install -r requirements.txt"
       dist: xenial
-    before_install:
-      - pip install -r requirements.txt       
+      name: "Python 3.7.1 on Xenial Linux"
+      python: 3.7
+    - 
+      language: shell
+      name: "Python 3.7.2 on macOS"
+      os: osx
+      osx_image: xcode10.2
+    - 
+      before_install: "choco install python"
+      env: "PATH=/c/Python37:/c/Python37/Scripts:$PATH"
+      language: shell
+      name: "Python 3.7.3 on Windows"
