@@ -21,7 +21,7 @@ def random_with_choice_and_sample_attribute(option='choice'):
   the random.sample method will not have duplication
   '''
   cards = []
-  for i in range(0,15):
+  for _ in range(0,15):
     cards.append(random.choice(deck))
   if (option == 'choice'):
     return cards
