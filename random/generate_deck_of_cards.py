@@ -1,5 +1,5 @@
 '''
-Generate deck of cards 
+Generate deck of cards
 It's composed in this manner:
 There are four suits; hearts, spades, diamonds, and clubs (H, S, D, C).
 Each suit has one card for the numbers 2 to 10, plus 4 'picture' cards, Ace, Jack, Queen, and King (A, J, Q, K).

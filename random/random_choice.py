@@ -25,9 +25,9 @@ def random_with_choice_and_sample_attribute(option='choice'):
     cards.append(random.choice(deck))
   if (option == 'choice'):
     return cards
-  else:  
+  else: 
     return random.sample(deck,k=15)
- 
+
 def random_with_shuffle():
   '''
   Shuffle method - need to input mutable list. Once we shuffle it the original sequence is lost
