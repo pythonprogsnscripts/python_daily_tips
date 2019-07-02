@@ -1,0 +1,23 @@
+{
+  "name": "markdown-spellcheck",
+  "version": "1.0.0",
+  "description": "Spell check for markdown files",
+  "main": "index.js",
+  "scripts": {
+    "test": "mdspell **/*.md --ignore-numbers --ignore-acronyms -r"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pythonprogsnscripts/python_daily_tips.git"
+  },
+  "keywords": [
+    "md",
+    "spellcheck"
+  ],
+  "author": "Sunil Jacob",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pythonprogsnscripts/python_daily_tips/issues"
+  },
+  "homepage": "https://github.com/pythonprogsnscripts/python_daily_tips#readme"
+}
