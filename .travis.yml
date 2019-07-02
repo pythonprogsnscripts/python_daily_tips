@@ -7,6 +7,8 @@ matrix:
       dist: xenial
       before_install:
         - pip install -r requirements.txt
+        - sudo apt-get install nodejs
+        - sudo apt-get install npm
     # - name: "Python 3.7.2 on macOS"
     #   os: osx
     #   osx_image: xcode10.2  # Python 3.7.2 running on macOS 10.14.3
@@ -21,3 +23,4 @@ matrix:
 #install: pip3 install --upgrade pip  # all three OSes agree about 'pip3'
 script:
   - echo "Hello Python"
+  - nodejs -v
