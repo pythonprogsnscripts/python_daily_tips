@@ -7,8 +7,8 @@ matrix:
       dist: xenial
       before_install:
         - pip install -r requirements.txt
-        - sudo apt-get install nodejs
-        - sudo apt-get install npm
+        # - sudo apt-get install nodejs
+        # - sudo apt-get install npm
       cache:
         directories:
           - "node_modules"  

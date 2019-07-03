@@ -11,6 +11,7 @@ def basic_use_of_rand():
   '''
   This function shows the basic use of random function
   '''
+  random.seed(62)
   hello = random.choice(deck)
   return hello
 

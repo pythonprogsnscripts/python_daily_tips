@@ -9,4 +9,7 @@ Write in any language you please.
 Golf it up! Try to produce this output in the smallest number of bytes.
 It does not matter what order the output is in.
 '''
-print(*[a+b for a in['10',*'A23456789JQK']for b in'CHSD'],*'JJ')
+def generate_deck_of_cards():
+    return (*[a+b for a in['10',*'A23456789JQK']for b in'CHSD'],*'JJ')
+
+print(generate_deck_of_cards())
