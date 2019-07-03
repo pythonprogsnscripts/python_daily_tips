@@ -22,10 +22,11 @@ def random_with_choice_and_sample_attribute(option='choice'):
   cards = []
   for _ in range(0,15):
     cards.append(random.choice(deck))
-  if (option == 'choice'):
-    return cards
-  else:
-    return random.sample(deck,k=15)
+  # if (option == 'choice'):
+  #   return cards
+  # else:
+  #   return random.sample(deck,k=5)
+  return cards  
 
 def random_with_shuffle():
   '''
