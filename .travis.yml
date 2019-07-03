@@ -27,6 +27,6 @@ matrix:
 script:
   - echo "Hello Python"
   - pytest -v
-  - coverage ./randomness/src/*.py
+  - coverage report -m ./randomness/src/*.py
   # - python-codacy-coverage -r coverage.xml
   # - nodejs -v
