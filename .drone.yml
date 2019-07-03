@@ -1,9 +1,0 @@
-kind: pipeline
-name: python3
-
-steps:
-- name: test
-  image: python
-  commands:
-  - pip install pylint
-  - pytest
