@@ -25,8 +25,7 @@ matrix:
 
 #install: pip3 install --upgrade pip  # all three OSes agree about 'pip3'
 script:
-  - echo "Hello Python"
-  - pytest -v
   - coverage report -m ./randomness/src/*.py
-  # - python-codacy-coverage -r coverage.xml
+  - coverage xml ./randomness/src/*.py
+  - python-codacy-coverage -r coverage.xml
   # - nodejs -v
