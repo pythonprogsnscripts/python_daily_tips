@@ -1,5 +1,5 @@
 from randomness.src import random_choice as rand, generate_deck_of_cards as cards
-from randomness.src.random_choice import deck
+# from randomness.src.random_choice import deck
 def test_random_with_seed():
     seed = rand.basic_use_of_rand()
     assert seed == '9C'

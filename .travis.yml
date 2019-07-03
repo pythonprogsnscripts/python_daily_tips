@@ -27,4 +27,5 @@ matrix:
 script:
   - echo "Hello Python"
   - pytest -v
+  - python-codacy-coverage -r coverage.xml
   # - nodejs -v

@@ -26,7 +26,7 @@ def random_with_choice_and_sample_attribute(option='choice'):
   #   return cards
   # else:
   #   return random.sample(deck,k=5)
-  return cards  
+  return cards
 
 def random_with_shuffle():
   '''
