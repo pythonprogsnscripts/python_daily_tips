@@ -26,6 +26,6 @@ matrix:
 #install: pip3 install --upgrade pip  # all three OSes agree about 'pip3'
 script:
   - pytest -v
-  - pytest --cov=randomness/tests/ --cov-report xml
+  - pytest --cov=randomness --cov-report xml
   - python-codacy-coverage -r coverage.xml
   # - nodejs -v
