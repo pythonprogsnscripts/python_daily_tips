@@ -7,7 +7,7 @@ import math
 def accept_input():
     number = int(input('Enter a number: '))
     return number
-    
+
 number = accept_input()
 primes = []
 for i in range(2,number+1):
