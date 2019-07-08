@@ -4,8 +4,11 @@ More information of this process is listed in README.md
 '''
 import math
 
-number = int(input('Enter a number: '))
-
+def accept_input():
+    number = int(input('Enter a number: '))
+    return number
+    
+number = accept_input()
 primes = []
 for i in range(2,number+1):
     primes.append(i)

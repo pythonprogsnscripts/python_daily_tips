@@ -3,3 +3,4 @@ yamllint
 coverage
 codacy-coverage
 pytest-cov
+mock
