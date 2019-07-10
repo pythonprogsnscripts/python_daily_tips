@@ -11,8 +11,8 @@ def find_occurences(n,m):
     for i in range(n):
         grpA = input()
         d[grpA].append(str(i+1))
-    for j in range(m):
+    for _ in range(m):
         grpA = input()
-        print(" ".join(d[grpA]) or -1) 
+        print(" ".join(d[grpA]) or -1)
 
 find_occurences(n,m)
